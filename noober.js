@@ -102,11 +102,11 @@ async function pageLoaded() {
 
   // writes the returned JSON to the console
   console.dir(json)
-  let ride = json
+
   
   // 🔥 start here: write code to loop through the rides
-  for (let i=0; i<ride.length; i++) {
-    renderRide(ride[i])
+  for (let i=0; i<json.length; i++) {
+    renderRide(json[i])
   }
 
   
